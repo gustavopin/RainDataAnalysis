@@ -3,7 +3,7 @@
 ## Description
 
 This project filters and analises data provided by weather stations located inside the city of José Bonifácio.
-The data used can be found in the folder ['Data'](Data).
+The data used can be found in the folder [Data](Data).
 
 ## Questions to be answered using this data:
     - Total annual preciptation 
