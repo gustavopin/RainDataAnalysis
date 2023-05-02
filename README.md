@@ -1,4 +1,4 @@
-# Analysis of Data About The Rains At a José Bonifácio, São Paulo, Brazil
+# Analysis of Data About The Weather at José Bonifácio, São Paulo, Brazil
 
 ## Description
 
@@ -11,6 +11,5 @@ The data used can be found in the folder ['Data'](Data).
     - Annual mean of preciptation
     - Monthly average preciptation
     - Monthly standard deviation
-    - Monthly dispersion
     - Correlation between umidity and temperature, precipitation, dew point, radiation and temperature
     - COrrelation between wind speed, wind gust, wind direction and ATM pressure
