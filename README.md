@@ -5,7 +5,7 @@ Weather analysis are commonly used to monitor temperatures, precipitation, radia
 All the data were obtained from brazilian National Institute of Metereology's [website](https://mapas.inmet.gov.br/).
 
 ## Used Parameters
-Inside the folder [Data](Data) there is a file named ['station_data'](Data/station_data.csv), containing the downloaded.
+Inside the folder [Data](Data) there is a file named [station_data](Data/station_data.csv), containing the downloaded.
 From this Spreadsheet we used the following (with the correspondent column inside the file):
  - Dates (Data)
  - Hour (Hora (UTC))
@@ -63,7 +63,7 @@ To analyze the correlation between variables, a heatmap was created:
 
 ![Correlation Data](Graphs/corr_matrix_1.png "Correlation Between Varibles")
 
-This Heatmap compares some variable to see their correlation, the closer the values is to one, the more correlated they are, but, if the coefficient is negative, it means they don't exactly go the same way.
+This correlation matrix compares some variable to see their correlation, the closer the values is to one, the more correlated they are, but, if the coefficient is negative, it means they don't exactly go the same way.
 For example, comparing we can see the coefficient for Umidity and Temperature is -0.67, which we can understand as: the higher the temperature, less umidity there is in the air. 
 In Dew and Umidity we have a coefficient of 0.48, which is high but less than we could expect (dew is water condensation, right?). Both graphs shown below can explain this:
 
@@ -85,5 +85,9 @@ It is known that diferences in atmospheric pressure cause changes in wind speeds
 That being said, wind speeds and atmospheric pressure did not have great changes troughout the year, this could be a problem with the station (hardware or positioning).
 
 ## In Summary...
-The data provided by the station is not very reliable, it can define seasons and provide somewhat good temperature readings, but precision is lacking and this can be seen at all variables. Other sources like [ClimaTempo](https://www.climatempo.com.br/) can be a more reliable source of information, as well as [Hidroweb](https://www.snirh.gov.br/hidroweb) for precipitation data.
-Problems like that can have a plethora of reasons to occur, from hardware and positioning problems, to software and bad extraction of the data.
+Using the precipitation as an example, annual readings of 650 mm are far from true. Talking with specilialists and looking at other sources stated below, that region should have at leats 1200 mm of precipitation per year, almost double of what the data show. With bad precipitation and wind datas we can't state anything with certainty and can only assume that the station has problems, that can be caused by:
+ - Bad postioning
+ - Bad hardware/software
+ - Upload of information was corrupted
+ - and others
+Other sources like [ClimaTempo](https://www.climatempo.com.br/) can be a more reliable source of information, as well as [Hidroweb](https://www.snirh.gov.br/hidroweb) for precipitation data.
